@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #111;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffce00;
+}
+
+/* About Section */
+.about-section {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+}
+
+.contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #111;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #111;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffce00;
+}
+
+/* Calendly Section */
+.calendly-section {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.calendly-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}

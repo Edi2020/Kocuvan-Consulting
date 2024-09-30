@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kocuvan-Consulting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <div class="container">
+            <h1>Dein Unternehmen</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Über Uns</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                    <li><a href="#calendly">Termin buchen</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Über Uns Abschnitt -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>Über Unser Unternehmen</h2>
+            <p>Wir sind ein führendes Unternehmen in [deiner Branche] und bieten hochwertige Dienstleistungen an.</p>
+        </div>
+    </section>
+
+    <!-- Kontaktformular -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Absenden</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Calendly Integration -->
+    <section id="calendly" class="calendly-section">
+        <div class="container">
+            <h2>Termin Buchen</h2>
+            <div class="calendly-inline-widget" data-url="https://calendly.com/edi-kocuvan24" style="min-width:320px;height:630px;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Dein Unternehmen. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+</body>
+</html>
